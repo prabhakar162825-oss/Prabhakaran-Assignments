@@ -1,0 +1,23 @@
+package com.index.pack;
+import java.util.Scanner;
+public class LargestOfTwoNumbers {
+public static void main(String[] args) {
+	int Largest;
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the value of A:");
+	int a =sc.nextInt();
+	System.out.println("Enter the value of B:");
+	int b =sc.nextInt();
+	if(a>b) {
+		System.out.println("A is the Largest Value");
+		System.out.println("Largest Value is " +a);
+	}
+	else 
+	{
+		System.out.println("B is the largest Value");
+		System.out.println("Largest Value is " +b);
+	}
+	
+}
+}
+
