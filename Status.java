@@ -10,7 +10,7 @@ public static void main(String args[]) {
 	
 	String Status;
 
-	if (Username.equals("Prabha") && Password.equals("Keerthi28")) {
+	if (Username.equals("Prabha") && Password.equals("Prabha@28")) {
 	    Status = "Login Successful";
 
 
